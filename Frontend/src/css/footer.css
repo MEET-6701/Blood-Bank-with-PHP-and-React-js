@@ -1,0 +1,18 @@
+.footer-div{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: .5rem;
+    box-sizing: border-box;
+}
+
+.footer{
+    background-color: #239ec4;
+    color: white;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,49 @@
+.donor-list{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    min-height: 75vh;
+    max-height: 77vh;
+}
+
+.donor-list h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+hr{
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+.donor-list table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.donor-list table th, .donor-list table td{
+    padding: 10px;
+    
+    text-align: center;
+}
+
+.add-donor-btn{
+    background-color: #239ec4;
+    color: white;
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.donor-list-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,110 @@
+.login-form{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+width: 100%;
+}
+
+.login-form form div{
+    padding: 1rem 0;
+    width: 100%;
+}
+
+.login-form form{
+    width: 40%;
+}
+
+label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="username"],
+  input[type="password"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  input[type="text"]:focus,
+  input[type="username"]:focus,
+  input[type="password"]:focus,
+  textarea:focus {
+    border-color: #4CAF50; /* Highlight border on focus */
+    outline: none;
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  /* Error message */
+  .error-message {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: 5px;
+  }
+  
+  /* Submit Button */
+  button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Button for Reset */
+  button[type="reset"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+  button[type="reset"]:hover {
+    background-color: #e53935;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .form-container {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    .form-container h2 {
+      font-size: 1.5rem;
+    }
+  
+    label, input[type="text"], input[type="username"], input[type="password"], textarea {
+      font-size: 0.9rem;
+    }
+  
+    button[type="submit"], button[type="reset"] {
+      font-size: 1rem;
+    }
+  }
